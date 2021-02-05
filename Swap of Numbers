@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+int a,b,c;
+int main()
+{
+printf("enter any two numbers: ");
+scanf("%d %d",&a ,&b);
+c=a;
+a=b;
+b=c;
+printf("after swapping no. a,b : %d %d",a,b);
+return 0;
+}
